@@ -4,12 +4,18 @@
 
 p {
     font-size: 20px;
-    color: #2f7a11;
+    color: white;
 }
 
 h1 {
     font-size: 80px;
     color: #ff9a48;
+    text-align: center;
+}
+
+h2{
+    font-size:40px;
+    color: white;
 }
 
 .BestOrange {
