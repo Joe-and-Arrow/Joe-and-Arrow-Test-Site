@@ -1,31 +1,43 @@
 ﻿body {
-    background-color: forestgreen;
+    background-color: #1e1e1e;
 }
 
 p {
     font-size: 20px;
-    color: white;
+    color: #fafbfb;
+}
+
+li {
+    font-size: 20px;
+    color: #fafbfb;
 }
 
 h1 {
     font-size: 80px;
-    color: #ff9a48;
     text-align: center;
+    text-shadow: initial;
 }
 
-h2{
-    font-size:40px;
-    color: white;
+h2 {
+    font-size: 40px;
+    color: #ffd38c;
 }
 
-.BestOrange {
+.Orange {
     color: #ff9a48
+}
+
+.Gold {
+    color: #ffd38c;
 }
 
 .Italic {
     font-style: italic;
 }
 
-.BestOrange.Italic {
-    font-weight: bold;
+.Center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
 }
