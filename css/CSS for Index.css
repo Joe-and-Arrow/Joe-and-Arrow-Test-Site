@@ -1,21 +1,55 @@
-﻿body {
-    background-color: #1e1e1e;
+﻿header{
+    background-color: forestgreen;
+    padding-bottom: 30px;
+    margin: 0;
 }
+
+header img {
+    border-radius: 293px;
+    border: 5px solid #ffd38c;
+}
+
+body {
+    background-color: #1e1e1e;
+    margin: 0;
+    line-height: 25px;
+}
+
+main {
+    margin: 0 auto;
+    max-width: 1000px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+}
+
+footer {
+    padding: 5px;
+    margin: 0 auto;
+    background-color: black;
+    text-align: center;
+}
+
+/* Paragraphs */
 
 p {
     font-size: 20px;
     color: #fafbfb;
 }
 
+/* Lists */
+
 li {
     font-size: 20px;
     color: #fafbfb;
 }
 
+/* Headers */
+
 h1 {
+    padding-top: 30px;
     font-size: 80px;
     text-align: center;
-    text-shadow: initial;
+    margin-top: 0;
 }
 
 h2 {
@@ -23,8 +57,19 @@ h2 {
     color: #ffd38c;
 }
 
+h3 {
+    font-size: 25px;
+    color: #ffd38c;
+}
+
+/* Classes */
+
+.TopBar {
+    background-color: #1e1e1e;
+}
+
 .Orange {
-    color: #ff9a48
+    color: #ff9a48;
 }
 
 .Gold {
@@ -40,4 +85,22 @@ h2 {
     margin-left: auto;
     margin-right: auto;
     width: 60%;
+}
+
+/* Links (Anchor Elements) */
+a:link{
+    color:white
+}
+
+a:visited {
+    color: #ffd38c;
+}
+
+a:hover {
+    color: #ff9a48;
+    background-color: forestgreen;
+}
+
+a:active{
+    color:aqua;
 }
